@@ -1,0 +1,23 @@
+{
+  "name": "md-mailgun",
+  "version": "1.0.0",
+  "description": "mailgun request to send mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterDevo/md-mailgun.git"
+  },
+  "keywords": [
+    "mail",
+    "mailgun"
+  ],
+  "author": "misterdevo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterDevo/md-mailgun/issues"
+  },
+  "homepage": "https://github.com/MisterDevo/md-mailgun#readme"
+}
