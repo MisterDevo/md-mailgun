@@ -1,6 +1,6 @@
 {
   "name": "md-mailgun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mailgun request to send mail",
   "main": "index.js",
   "scripts": {
