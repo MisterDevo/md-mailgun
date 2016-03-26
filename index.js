@@ -17,7 +17,7 @@ module.exports = function (from, subject, message, cb) {
   var reqMail = https.request(options, (respMail) => {
     respMail.on('data', (d) => {
       process.stdout.write(d);
-      cb(d.toString());
+      cb(respMail.statusCode);
     });
   });
 
@@ -30,7 +30,7 @@ module.exports = function (from, subject, message, cb) {
           from: from + '<postmaster@' + process.env.MAILGUN_DOMAIN + '>',
           to: 'MisterDevo <mister.devo@gmail.com>',
           subject: subject,
-          text: message 
+          text: message
         }));
 
   reqMail.end();
